@@ -1,0 +1,11 @@
+alias h=history
+alias xless='xterm -e less'
+# Function to kill blank lines and comments
+function crunch() {
+sed -e '/^$/d' -e '/^[	 ]*#.*$/d'
+}
+
+alias x_man='xterm -e man '
+
+alias realias='source ~/.bashrc.aliases'
+

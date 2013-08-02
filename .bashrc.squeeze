@@ -1,0 +1,3 @@
+function skype() {
+  LD_PRELOAD="/usr/lib32/libv4l/v4l1compat.so /usr/lib32/libcanberra-0.24/libcanberra-alsa.so /usr/lib32/libcanberra-gtk.so.0 /usr/lib32/libcanberra.so.0" /usr/bin/skype
+}

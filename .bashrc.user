@@ -1,0 +1,16 @@
+export HISTCONTROL=ignoreboth
+export HISTFILESIZE=1500
+export HISTSIZE=3000
+export VISUAL=vim
+shopt -s histappend
+shopt -s checkwinsize
+ulimit -c unlimited
+function qgrep () {
+  egrep -v '#|^ *$' ${*}
+}
+function allgrep () {
+  find ${FP} -type f ${FA} -exec grep -nH $1 {} \;
+}
+function allcgrep () {
+  find ${FP} -type f -a \( -name "*.c*" -o -name "*.h" \) ${FA} -exec grep -nH $1 {} \;
+}
