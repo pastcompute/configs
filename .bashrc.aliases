@@ -8,4 +8,4 @@ sed -e '/^$/d' -e '/^[	 ]*#.*$/d'
 alias x_man='xterm -e man '
 
 alias realias='source ~/.bashrc.aliases'
-
+alias gitgow='(cd env ; gitg)'
