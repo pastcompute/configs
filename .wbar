@@ -1,0 +1,20 @@
+i: /usr/share/wbar/iconpack/wbar.osx/osxbarback.png
+c: wbar -bpress -above-desk -pos center -zoomf 1.3 -isize 72 -idist 4 -jumpf 1 -nanim 3 -balfa 25
+t: /usr/share/wbar/iconpack/wbar.osx/font/16
+
+i: /usr/share/pixmaps/other/Webbrowser.png
+c: iceweasel
+t: Firefox
+
+i: /usr/share/pixmaps/icedove.xpm
+c: icedove
+t: Thunderbird
+
+i: /usr/share/icons/hicolor/128x128/apps/libreoffice4.1-impress.png
+c: libreoffice4.1 --impress
+t: Impress
+
+i: /usr/share/pixmaps/other/GIMP.png
+c: gimp
+t: GIMP
+

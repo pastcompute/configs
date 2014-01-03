@@ -1,0 +1,10 @@
+nitrogen --restore
+fbpanel&
+wbar -above-desk -pos bot-left&
+gkrellm -w& 
+kmix&
+shutter --min_at_startup&
+# /usr/lib/openbox/openbox-xdg-autostart --list system : glipper
+xscreensaver -no-splash &
+rednotebook -m&
+udisks-glue &

@@ -1,0 +1,3 @@
+export PATH=$HOME/bin:$PATH
+keychain ~/.ssh/id_rsa
+. ~/.keychain/atlantis4-sh

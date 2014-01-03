@@ -1,0 +1,9 @@
+[alias]
+	st = status
+[user]
+	email = bugs@andrewmcdonnell.net
+	name = Andrew McDonnell
+[core]
+	excludesfile = /home/andrew/.gitignore
+[diff "odf"]
+        textconv=odt2txt
