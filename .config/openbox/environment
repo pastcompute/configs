@@ -1,3 +1,2 @@
 export PATH=$HOME/bin:$PATH
-keychain ~/.ssh/id_rsa
-. ~/.keychain/atlantis4-sh
+test -e $HOME/Personal/openbox-environment && source $HOME/Personal/openbox-environment

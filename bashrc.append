@@ -1,5 +1,7 @@
+MY_HOSTNAME=`hostname -s`
 test -e ~/.bashrc.aliases && source ~/.bashrc.aliases
 test -e ~/.bashrc.user && source ~/.bashrc.user
-test -e ~/.bashrc.squeeze && source ~/.bashrc.squeeze
+test -e ~/Personal/bashrc.$MY_HOSTNAME && source ~/Personal/bashrc.$MY_HOSTNAME
+test -e ~/Personal/bashrc.private && source ~/Personal/bashrc.private
 test -e ~/.bashrc.local && source ~/.bashrc.local
 

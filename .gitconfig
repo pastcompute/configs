@@ -1,5 +1,6 @@
 [alias]
 	st = status
+        co = checkout
 [user]
 	email = bugs@andrewmcdonnell.net
 	name = Andrew McDonnell
@@ -7,3 +8,9 @@
 	excludesfile = /home/andrew/.gitignore
 [diff "odf"]
         textconv=odt2txt
+[url "git://git.debian.org/d-i/"]
+	insteadOf = git+ssh://git.debian.org/git/d-i/
+[credential]
+	helper = cache --timeout=3600
+
+# Remember, use ssh-add to add keys ...

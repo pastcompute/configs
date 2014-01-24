@@ -7,4 +7,5 @@ shutter --min_at_startup&
 # /usr/lib/openbox/openbox-xdg-autostart --list system : glipper
 xscreensaver -no-splash &
 rednotebook -m&
-udisks-glue &
+udisks-glue -s&
+test -e $HOME/Personal/openbox-autostart && $HOME/Personal/openbox-autostart
