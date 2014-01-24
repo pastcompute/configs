@@ -3,4 +3,5 @@ git config --global merge.tool kdiff3
 git config --global core.editor vi
 git config --global alias.co checkout
 git config --global alias.st status
+git config --global core.excludesfile $HOME/Personal/global.gitignore
 
