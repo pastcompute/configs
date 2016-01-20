@@ -27,6 +27,11 @@
 				<execute>x-terminal-emulator</execute>
 			</action>
 		</item>
+		<item label="Konsole">
+			<action name="Execute">
+				<execute>konsole</execute>
+			</action>
+		</item>
 		<separator/>
 		<item label="gedit">
 			<action name="Execute">
@@ -49,15 +54,26 @@
 				<execute>amarok</execute>
 			</action>
 		</item>
+		<item label="Gimp">
+			<action name="Execute">
+				<execute>gimp</execute>
+			</action>
+		</item>
 		<separator/>
 		<item label="Web browser">
 			<action name="Execute">
 				<execute>x-www-browser</execute>
 			</action>
 		</item>
+		<separator/>
 		<item label="KeePass2">
 			<action name="Execute">
 				<execute>keepass2</execute>
+			</action>
+		</item>
+		<item label="VirtualBox">
+			<action name="Execute">
+				<execute>VirtualBox</execute>
 			</action>
 		</item>
 		<separator/>

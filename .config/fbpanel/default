@@ -116,7 +116,7 @@ Global {
     height = 24
     transparent = true
     tintcolor = #ffffff
-    alpha = 28
+    alpha = 75
     setdocktype = true
     setpartialstrut = true
     autohide = false
@@ -245,7 +245,7 @@ Plugin {
         ShowAllDesks  = false
         tooltips = true
         IconsOnly = false
-        MaxTaskWidth = 100
+        MaxTaskWidth = 80
     }
 }
 
@@ -351,7 +351,7 @@ Plugin {
 Plugin {
     type = tclock
     config {
-        ClockFmt = <span color="darkgreen"><b>%F %T</b></span>
+        ClockFmt = <span color="green"><b>%F %T</b></span>
 #        # 2 line view, time in bold above and date below
 #        # ClockFmt = <span font="Sans 8"><b>%-l:%M</b> %P&#xA;%a %B %-e</span>
         TooltipFmt = %A %x

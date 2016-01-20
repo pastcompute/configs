@@ -6,15 +6,27 @@ i: /usr/share/pixmaps/other/Webbrowser.png
 c: iceweasel
 t: Firefox
 
+i: /opt/google/chrome/product_logo_256.png
+c: /usr/bin/google-chrome-stable
+t: Google Chrome
+
+i: /usr/share/icons/hicolor/256x256/apps/chromium.png
+c: /usr/bin/chromium
+t: Chromium
+
 i: /usr/share/pixmaps/icedove.xpm
 c: icedove
 t: Thunderbird
 
-i: /usr/share/icons/hicolor/128x128/apps/libreoffice4.1-impress.png
-c: libreoffice4.1 --impress
+i: /usr/share/icons/hicolor/128x128/apps/libreoffice-impress.png
+c: libreoffice --impress
 t: Impress
 
 i: /usr/share/pixmaps/other/GIMP.png
 c: gimp
 t: GIMP
+
+i: /usr/share/icons/gnome/256x256/apps/accessories-calculator.png
+c: kcalc
+t: kcalc
 

@@ -343,7 +343,7 @@
         <command>shutter -C -f</command>
       </action>
     </keybind>
-    <keybind key="A-F2">
+    <keybind key="W-r">
       <action name="Execute">
         <startupnotify>
           <enabled>false</enabled>

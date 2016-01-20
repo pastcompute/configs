@@ -8,4 +8,12 @@ shutter --min_at_startup&
 xscreensaver -no-splash &
 rednotebook -m&
 udisks-glue -s&
+gtk-redshift -l -34:138 &
+balsa&
+# Already running? blueman-applet&
 test -e $HOME/Personal/openbox-autostart && $HOME/Personal/openbox-autostart
+nepomukcontroller&
+$HOME/bin/brother-network-scanner.sh&
+# xchat --minimize=2 --url irc://tyto.eaglenest/AstroComet&
+# mega_sync &
+tumblerdwatcher&
